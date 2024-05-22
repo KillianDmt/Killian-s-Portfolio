@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--Debut mise en page, le plus fidele possible avec figma wireframe-->
+<html>
+    <head>
+        <title>Killian's Portfolio - Acceuil</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="style.css" />
+        <noscript><link rel="stylesheet" href="#"/></noscript>
+    </head>
+
+    <body>
+        <!--Header Menu Place Haut droite Acceuil Bouton noir-->
+        <header class="menu">
+            <a>ABOUT ME</a>
+            <a>CONTACT</a>
+            <a>PROJECT</a>
+            <a class="button">ACCEUIL</a>
+        </header>
+        <main id="div1">
+            <!--Creer grid pour regler placement ?-->
+            <h1>
+                Full-Stack Web Dev
+            </h1>
+            <p>
+                <em>Nice Catchy Phrase, Find it....</em>
+            </p>
+            <a class="button">PROJECT</a>
+        </main>
+        <!--Footer CGU Lien-->
+        <footer>
+
+        </footer>
+        <!--Script deroulement image "blog"-->
+        <script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+    </body>
+</html>
